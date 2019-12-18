@@ -1668,17 +1668,7 @@ def description_json():
 @pytest.fixture
 def description_raw():
     return """\
-E-commerce for the PWA era
-A modular, high performance e-commerce storefront built with GraphQL, Django, \
-and ReactJS.
-
-Saleor is a rapidly-growing open source e-commerce platform that has served \
-high-volume companies from branches like publishing and apparel since 2012. \
-Based on Python and Django, the latest major update introduces a modular \
-front end with a GraphQL API and storefront and dashboard written in React \
-to make Saleor a full-functionality open source e-commerce.
-
-Get Saleor today!"""
+FGAIER EXPORT """
 
 
 @pytest.fixture
