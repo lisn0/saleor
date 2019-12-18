@@ -154,7 +154,11 @@ def payment_success(request, token):
     return redirect(url)
 
 
+
 def checkout_success(request, token):
+    pass
+    
+def payment(request, token):
     """Redirect user after placing an order.
 
     Anonymous users are redirected to the checkout success page.
